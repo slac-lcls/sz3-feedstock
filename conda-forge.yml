@@ -18,4 +18,4 @@ channels:
     - conda-forge
     - defaults
   targets:
-    - ["lcls-i", "main"]
+    - ["lcls-ii", "main"]
