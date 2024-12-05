@@ -1,5 +1,5 @@
-{% set name = "SZ3" %}
-{% set version = "v3.1.8" %}
+{% set name = "SZx" %}
+{% set version = "v1.1.1d" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   git_url: https://github.com/szcompressor/{{ name }}
-  git_tag: e308ebf8528c233286874b920c72c0a6c0218fb2
+  git_tag: 3a0f875afb0de045517aad150caa6f3842e867b5
 
 build:
   skip: True  # [win or osx]
@@ -30,15 +30,15 @@ requirements:
     - zstd
 
 about:
-  home: https://github.com/szcompressor/SZ3
+  home: https://github.com/szcompressor/SZx
   license: BSD-3-Clause
   license_family: BSD
   license_file: copyright-and-BSD-license.txt
-  summary: 'SZ3: A Modular Error-bounded Lossy Compression Framework for Scientific Datasets'
+  summary: 'SZx: Lossy Compression Framework for Scientific Datasets'
   description: |
-    SZ3 - A Modular Error-bounded Lossy Compression Framework for Scientific Datasets
-  doc_url: https://github.com/szcompressor/SZ
-  dev_url: https://github.com/szcompressor/SZ
+    SZx - Lossy Compression Framework for Scientific Datasets
+  doc_url: https://github.com/szcompressor/SZx
+  dev_url: https://github.com/szcompressor/SZx
 
 extra:
   recipe-maintainers:
